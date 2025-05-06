@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f0f8ff, #ffe4f0);
+  color: #333;
+}
+
+header {
+  background: #ea7d00;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  background: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.section {
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 32px;
+  font-size: 32px;
+  color: #6200ea;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding: 24px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(7, 7, 7, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #ea7d00;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
+
+#reszletek {
+  padding: 32px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  background-color: #e6f0ff;
+  border-left: 5px solid #3366cc;
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.details strong {
+  color: #003366;
+  font-size: 20px; 
+}
+
+.details.with-image {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.details.with-image.left {
+  flex-direction: row;
+}
+
+.details.with-image.right {
+  flex-direction: row-reverse;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background-color: #246b43;
+  border-radius: 5px;
+}
+header {
+  background: #3cb371;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+.positive {
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid ;
+}
+.positive img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.negative {
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid ;
+}
+
+.negative img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.platform {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.platform:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.platform h2 {
+  color: #00796b;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.platform p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.future-block {
+  background-color: #f3e5f5;
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 800px;
+  border-left: 8px solid #9c27b0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.future-block h2 {
+  color: #6a1b9a;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.future-block p {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+}
